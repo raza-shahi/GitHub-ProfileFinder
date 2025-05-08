@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
-import Nav from "../components/Nav";
-import Footer from "../components/Footer";
 
 const HomePage = () => {
     const [username, setUsername] = useState("");
@@ -33,8 +31,7 @@ const HomePage = () => {
     };
     
     return (
-      <div className="min-h-screen grid grid-rows-[auto_1fr_auto]">
-        <Nav />
+      <div className="min-h-screen grid grid-rows">
         <main className="container mx-auto px-4 py-8">
           <div className="h-full flex flex-col items-center justify-center text-center space-y-8">
             <div className="space-y-4">
@@ -68,7 +65,6 @@ const HomePage = () => {
             </div>
           </div>
         </main>
-        <Footer />
       </div>
     );
 }

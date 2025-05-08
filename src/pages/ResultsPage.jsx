@@ -1,7 +1,5 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import Nav from '../components/Nav';
-import Footer from '../components/Footer';
 
 const ResultsPage = () => {
   const { state } = useLocation();
@@ -10,16 +8,13 @@ const ResultsPage = () => {
   if (!userData) {
     return (
       <>
-      <Nav />
-      <div className="text-center py-8">No user data found</div>
+      <div className="min-h-screen text-center py-8">No user data found</div>
       </>
     );
   }
 
   return (
     <div className="min-h-screen grid grid-rows-[auto_1fr_auto] bg-gray-50">
-      {/* Navigation */}
-      <Nav />
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">
@@ -76,9 +71,6 @@ const ResultsPage = () => {
           </div>
         </div>
       </main>
-
-      {/* Footer */}
-      <Footer/>
     </div>
   );
 };
