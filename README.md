@@ -1,6 +1,7 @@
 # GitHub Name Finder 🔍
 
 ![GitHub Name Finder Screenshot](image.png)
+![User Details Page](image-1.png)
 *A React application for finding GitHub user profiles*
 
 ## Features ✨
