@@ -1,12 +1,28 @@
-# React + Vite
+# GitHub Name Finder 🔍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GitHub Name Finder Screenshot](image.png)
+*A React application for finding GitHub user profiles*
 
-Currently, two official plugins are available:
+## Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔎 Search for any GitHub username
+- 📊 View user profile details (repos, followers, following)
+- 🎨 Clean, responsive UI with Tailwind CSS
+- ⚡ Fast navigation with React Router
+- 📱 Fully mobile-responsive design
+- 🌓 Dark theme by default
 
-## Expanding the ESLint configuration
+## Technologies Used 🛠️
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React 18
+- **Styling**: Tailwind CSS
+- **Routing**: React Router v6
+- **Build Tool**: Vite
+- **API**: GitHub REST API
+
+## Installation 🚀
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/github-name-finder.git
+   cd github-name-finder
